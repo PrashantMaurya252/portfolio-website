@@ -38,18 +38,36 @@ nav ul li{
     font-size: 1.3rem;
 }
 .container{
-    min-height: 75vh;
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Verala-Round','sans-serif';
+    display: flex;
+    width:70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url(./pexels-bryan-catota-3756766.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .bottom{
     position: sticky;
-    height: 130px;
+    height: 100px;
     background-color: black;
     color: white;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor:pointer;
 }
 
 #myProgressBar{

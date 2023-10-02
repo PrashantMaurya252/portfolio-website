@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding:20px 40px;
+    color:#fff;
+}
+
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#heading{
+    margin-top: 90px;
+
+}
+#heading h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10vw;
+    font-weight: 900;
+    opacity: 0.7;
+    margin-left: 30px;
+    line-height: 1;
+}
+
+#heading #secondh1{
+    margin-left: 230px;
+}
+.blocktext{
+    width: fit-content;
+}
+
+.blocktext h5{
+    text-align: right;
+    font-size: 15px;
+
+}
+#smallHeading{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+#smallHeading h5{
+    text-align: right;
+    margin-top: .5vw;
+    font-size: 1vw;
+}
+
+#herofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2vw;
+}
+
+#herofooter a{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+#herofooter .iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#second{
+    color: #fff;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.elem{
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 4vw 3vw;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+}

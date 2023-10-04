@@ -10,11 +10,23 @@ html,body{
     height: 100%;
 }
 
+#minicircle{
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 99999;
+}
+
 #main{
     width: 100%;
+    background-color: #000;
 }
 
 #hero{
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -53,15 +65,22 @@ html,body{
     margin-left: 230px;
 }
 .blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     width: fit-content;
 }
 
 .blocktext h5{
+    text-transform: uppercase;
     text-align: right;
     font-size: 15px;
 
 }
 #smallHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin-top: 100px;
     padding-right: 50px;
 }
@@ -69,6 +88,16 @@ html,body{
     text-align: right;
     margin-top: .5vw;
     font-size: 1vw;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+
+}
+
+.bounding .boundingElem{
+    transform: translateY(100%);
 }
 
 #herofooter{
